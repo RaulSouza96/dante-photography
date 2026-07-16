@@ -54,7 +54,7 @@ export default function ConfiguracoesPage() {
         {fields.map(f => (
           <div key={f.key}>
             <label className="text-xs text-white/50 uppercase tracking-wider mb-1.5 block">{f.label}</label>
-            <input value={(settings as Record<string, string>)[f.key] || ''} onChange={e => setSettings(p => ({ ...p, [f.key]: e.target.value }))}
+            <input value={settings[f.key as keyof SiteSettings] || ''} onChange={e => setSettings(p => ({ ...p, [f.key]: e.target.value }))}
               className="w-full bg-white/5 border border-white/10 rounded-lg py-2.5 px-4 text-sm text-white placeholder-white/20 focus:outline-none focus:border-[#D4AF37]/50 transition-all" placeholder={f.placeholder} />
           </div>
         ))}

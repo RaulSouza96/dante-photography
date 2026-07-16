@@ -1,0 +1,15 @@
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+TypeError: Failed to parse URL from /api/admin/galerias
+    at n (C:\Users\rauls\Projects\dante-photography\.next\server\chunks\[root-of-the-server]__0xuaoik._.js:1:62764)
+    at H (C:\Users\rauls\Projects\dante-photography\.next\server\chunks\[root-of-the-server]__0xuaoik._.js:1:68916)
+    at <unknown> (C:\Users\rauls\Projects\dante-photography\.next\server\chunks\[root-of-the-server]__0xuaoik._.js:1:71464)
+    at async (C:\Users\rauls\Projects\dante-photography\.next\server\chunks\ssr\_195t68m._.js:1:809) {
+  [cause]: TypeError: Invalid URL
+      at n (C:\Users\rauls\Projects\dante-photography\.next\server\chunks\[root-of-the-server]__0xuaoik._.js:1:62764)
+      at H (C:\Users\rauls\Projects\dante-photography\.next\server\chunks\[root-of-the-server]__0xuaoik._.js:1:68916)
+      at <unknown> (C:\Users\rauls\Projects\dante-photography\.next\server\chunks\[root-of-the-server]__0xuaoik._.js:1:71464)
+      at async (C:\Users\rauls\Projects\dante-photography\.next\server\chunks\ssr\_195t68m._.js:1:809) {
+    code: 'ERR_INVALID_URL',
+    input: '/api/admin/galerias'
+  }
+}

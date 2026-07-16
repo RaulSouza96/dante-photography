@@ -1,0 +1,4 @@
+Vercel CLI 56.2.1 (Node.js 24.15.0)
+Retrieving project…
+? Store as sensitive? Sensitive values cannot be read later (Y/n)[67G
+[?25h
